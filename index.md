@@ -1,5 +1,4 @@
 ---
-title: Jekyll Theme
 layout: default
 ---
 # Welcome

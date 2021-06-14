@@ -1,0 +1,17 @@
+title: My Jekyll Theme
+author:
+  name: Your Name
+  email: YourEmail@Domain.com
+description: "This is a simple example page using my own jekyll theme."
+baseurl: ""
+url: "https://mathiasgam.github.io/jekyll-theme/"
+
+social-links:
+  github: jekyll
+  facebook: jekyll
+  linkedin: jekyll
+
+# remote_theme: mathiasgam/jekyll-theme
+
+plugins:
+  - jekyll-seo-tag
