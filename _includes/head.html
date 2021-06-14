@@ -2,4 +2,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/css/main.css">
     <title>{{ page.title }}</title>
+    {% for script in page.custom-scripts %}
+        <script src="{{ script }}"></script>
+    {% endfor %}
 </head>
