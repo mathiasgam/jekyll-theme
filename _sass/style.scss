@@ -38,3 +38,11 @@ html, body {
     padding: 0px;
     min-height: 100%;
 }
+
+@media screen and (max-width: 720px) {
+    .grid-container {
+        grid-template-areas: 'header' 'main' 'footer';
+        grid-template-rows: max-content auto max-content;
+        grid-template-columns: auto;
+    }
+}
