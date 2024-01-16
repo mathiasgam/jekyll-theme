@@ -6,12 +6,14 @@ description: "This is a simple example page using my own jekyll theme."
 baseurl: ""
 url: "https://mathiasgam.github.io/jekyll-theme/"
 
-social-links:
-  github: jekyll
-  facebook: jekyll
-  linkedin: jekyll
-
 # remote_theme: mathiasgam/jekyll-theme
 
 plugins:
   - jekyll-seo-tag
+
+# social-links:
+#   - { platform: facebook, user_url: ""}
+#   - { platform: github, user_url: "" }
+#   - { platform: gitlab, user_url: "" }
+#   - { platform: google_scholar, user_url: "" }
+#   - { platform: linkedin, user_url: "" }

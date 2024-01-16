@@ -1,12 +1,15 @@
 <footer class="footer" style="text-align: center;">
-    {{ if site.author }}
-    <ul>
-        {{ if site.author.name }}
-        <li>{{ site.author.name }}</li>
-        {{ endif }}
-        {{ if site.author.email }}
+    {% if site.author %}
+    <ul class="contact-list">
+        {% if site.author.name %}
+        <li>Author: {{ site.author.name }}</li>
+        {% endif %}
+        {% if site.author.email and site.author.email != ''%}
         <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-        {{ endif }}
+        {% endif %}
     </ul>
-    {{ endif }}
+    {% endif %}
+    {% if site.social-links %}
+    {% include social.html %}
+    {% endif %}
 </footer>
